@@ -1,0 +1,29 @@
+{
+  "name": "dir-backup",
+  "version": "0.0.0",
+  "description": "Backup and restore a directory (recursively) in .tar.gz format",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": "",
+  "keywords": [
+    "tar",
+    "gzip",
+    "directory",
+    "backup",
+    "restore"
+  ],
+  "author": "Dominic Barnes <dominic@dbarnes.info>",
+  "license": "MIT",
+  "dependencies": {
+    "wrench": "~1.4.4",
+    "tar.gz": "~0.1.1",
+    "async": "~0.2.6",
+    "fa": "~1.0.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.8.1",
+    "expect.js": "~0.2.0"
+  }
+}

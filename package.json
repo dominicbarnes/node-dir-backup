@@ -1,12 +1,15 @@
 {
   "name": "dir-backup",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Backup and restore a directory (recursively) in .tar.gz format",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/dominicbarnes/node-dir-backup.git"
+  },
   "keywords": [
     "tar",
     "gzip",
